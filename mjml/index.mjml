@@ -42,10 +42,13 @@
               text-align: center !important;
               width: 100% !important;
           }
-          .m-footer1 {
+          .m-footer1{
               text-align: center !important;
               width: 100% !important;
               padding-top:10px !important;
+          }
+          .espace{
+              height:50px !important;
           }
           .stop{
               display: none !important;
@@ -100,46 +103,52 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0">
       <mj-column>
-        <mj-text align="center" mj-class="T+4 cT+1">Nos Formations Commerce et Immobilier</mj-text>
+        <mj-text align="center" mj-class="T+4 cT+1">Nos Formations Tourisme</mj-text>
         <mj-divider align="center" border-color="#14141f" border-style="solid" border-width="0.75px" width="160px"></mj-divider>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="0">
       <mj-column width="50%" vertical-align="middle" background-color="#efefef">
-        <mj-image padding="0" border="none" width="481px" src="images/01hotellerie.jpg" alt=""></mj-image>
+        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/V9hbLyX/bts-Tourisme.jpg" alt="Préparation au CCA Cabin Crew Attestation"></mj-image>
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
-        <mj-text mj-class="T+2 cT+1" padding-bottom="0" letter-spacing="-1px">BTS <span style="font-weight:400;">Professions immobilières</span></mj-text>
-        <mj-text mj-class="T cT+0" padding="0 25px">Post-Bac</mj-text>
+        <mj-text mj-class="T+2 cT+1" padding-bottom="0" letter-spacing="-1px">BTS <span style="font-weight:400;">Tourisme</span></mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Post-Bac,</mj-text>
         <mj-text mj-class="T cT+0" padding="0 25px">Formation en <span style="font-weight:700;color:#14141f;">apprentissage</span>,</mj-text>
         <mj-text mj-class="T cT+0" padding="0 25px">Durée : <span style="font-weight:700;color:#14141f;">2 ans</span>,</mj-text>
-        <mj-text mj-class="T cT+0" padding="0 25px">Financement pris en charge par l'OPCO,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Taux de réussite (2022-2023) : <span style="font-weight:700;color:#14141f;">63%</span>,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Plus : <span style="font-weight:700;color:#14141f;">Préparation au CCA</span> (Cabin Crew Attestation),</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Financement pris en charge par l'OPCO.</mj-text>
         <mj-spacer css-class="espace"></mj-spacer>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="0" direction="rtl">
       <mj-column width="50%" vertical-align="middle" background-color="#efefef">
-        <mj-image padding="0" border="none" width="481px" src="images/02tourisme.jpg" alt=""></mj-image>
+        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/C144F69/bachelor-Tourisme.jpg" alt="Préparation d'un périple pour un client"></mj-image>
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
-        <mj-text mj-class="T+2 cT+1" padding-bottom="0">BTS <span style="font-weight:400">Management commercial opérationnel</span></mj-text>
-        <mj-text mj-class="T cT+0" padding="0 25px">Post-Bac</mj-text>
+        <mj-text mj-class="T+2 cT+1" padding-bottom="0">Bachelor <span style="font-weight:400">Chargé(e) de gestion commerciale en Tourisme</span></mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Post-BTS,</mj-text>
         <mj-text mj-class="T cT+0" padding="0 25px">Formation en <span style="font-weight:700;color:#14141f;">apprentissage</span> ,</mj-text>
-        <mj-text mj-class="T cT+0" padding="0 25px">Durée : <span style="font-weight:700;color:#14141f;">2 ans</span>,</mj-text>
-        <mj-text mj-class="T cT+0" padding="0 25px">Financement pris en charge par l'OPCO,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Durée : <span style="font-weight:700;color:#14141f;">1 an</span>,</mj-text>
+        <mj-text mj-class="T cT+0" letter-spacing="-1px" padding="0 25px">Taux de réussite (2022-2023) : <span style="font-weight:700;color:#14141f;">100%</span>,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Plus : <span style="font-weight:700;color:#14141f;">Semaine Travel week</span> semaine immersive en mobilité internationale,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Financement pris en charge par l'OPCO.</mj-text>
         <mj-spacer css-class="espace"></mj-spacer>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="0">
       <mj-column width="50%" vertical-align="middle" background-color="#efefef">
-        <mj-image padding="0" border="none" width="481px" src="images/03commerce.jpg" alt=""></mj-image>
+        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/fnBWHtd/mastere-Tourisme.jpg" alt="Jeune femme travaillant dans une agence de voyage"></mj-image>
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
-        <mj-text mj-class="T+2 cT+1" padding-bottom="0" letter-spacing="-1px">Bachelor <span style="font-weight:400;">Responsable en développement commercial</span></mj-text>
-        <mj-text mj-class="T cT+0" padding="0 25px">Post-BTS</mj-text>
-        <mj-text mj-class="T cT+0" padding="0 25px">Formation en <span style="font-weight:700;color:#14141f;">apprentissage</span> ,</mj-text>
-        <mj-text mj-class="T cT+0" padding="0 25px">Durée : <span style="font-weight:700;color:#14141f;">1 an</span>,</mj-text>
-        <mj-text mj-class="T cT+0" padding="0 25px">Financement pris en charge par l'OPCO,</mj-text>
+        <mj-text mj-class="T+2 cT+1" padding-bottom="0" letter-spacing="-1px">Mastère <span style="font-weight:400;">Management stratégique des entreprises du tourisme</span></mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Post-Bachelor,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Formation en <span style="font-weight:700;color:#14141f;">apprentissage</span>,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Durée : <span style="font-weight:700;color:#14141f;">2 ans</span>,</mj-text>
+        <mj-text mj-class="T cT+0" letter-spacing="-1px" padding="0 25px">Taux de réussite (2022-2023) : <span style="font-weight:700;color:#14141f;">100%</span>,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Plus : <span style="font-weight:700;color:#14141f;">Double certification internationale</span>,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Financement pris en charge par l'OPCO.</mj-text>
         <mj-spacer css-class="espace"></mj-spacer>
       </mj-column>
     </mj-section>
@@ -154,67 +163,67 @@
         <mj-divider align="center" border-color="#14141f" border-style="solid" border-width="0.75px" width="160px"></mj-divider>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="0px 60px 40px 60px"> 
+    <mj-section background-color="#ffffff" padding="0 60px 40px 60px"> 
       <mj-group width="50%">
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/6PXjrWM/logo12.jpg" alt="logo de l'entreprise Bureau Vallée"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/ZVLJ40K/Logo-Tourisme01.jpg" alt="logo du Port de Boulogne Calais"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/jzx6wwD/Logo17.jpg" alt="logo de l'entreprise First Burger"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/qJRjHm9/Logo-Tourisme02.jpg" alt="logo FVH"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/JtjjLqW/logo16.jpg" alt="logo de l'entreprise System U"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/QNwzyQs/Logo-Tourisme03.jpg" alt="logo de l'agence de voyage CAP 5 voyages"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/rwCsPwv/logo13.jpg" alt="logo de l'entreprise B&amp;M"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/Gp2p7qh/Logo-Tourisme04.jpg" alt="logo des agences de voyages Selectour"/>
         </mj-column>
       </mj-group>
       <mj-group width="50%">
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/3BkGVdJ/logo15.jpg" alt="logo du Chocolatier Jeff de Bruges"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1q7Rs5C/Logo-Tourisme05.jpg" alt="logo Planète croisière"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/gMT39C5/logo14.jpg" alt="logo de l'entreprise Vaporama"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/7Kt5FTX/Logo-Tourisme06.jpg" alt="logo civi-ling, séjours linguistiques"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/vzfDp26/logo6.jpg" alt="logo de l'entreprise Norauto"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/ggnx3PF/Logo-Tourisme07.jpg" alt="logo SC Travel"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/TvFhqZ6/logo7.jpg" alt="logo de l'opérateur Bouygues"/>
-        </mj-column>
-      </mj-group>
-      <mj-group width="50%">
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1fmQhDB/logo8.jpg" alt="logo de l'enseigne Intermarché"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1JtDdjZ/logo10.jpg" alt="logo de l'association G2R"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/r5CSJTZ/logo9.jpg" alt="logo de l'enseigne Boulanger"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1nyt9QW/logo1.jpg" alt="logo de l'enseigne Carrefour"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/fNjtWMS/Logo-Tourisme08.jpg" alt="logo Mariot voyages"/>
         </mj-column>
       </mj-group>
       <mj-group width="50%">
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/PCdy14J/logo2.jpg" alt="logo de l'entreprise Levi's strauss"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/3TyNHFT/Logo-Tourisme09.jpg" alt="logo Hôtel Saint Maurice"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/9Zn8sFY/logo3.jpg" alt="logo de l'enseigne l'incroyable"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/TcMKrBd/Logo-Tourisme10.jpg" alt="logo destination Coeur de Flandre"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/5nT0VG5/logo5.jpg" alt="logo de l'entreprise agro-alimentaire Danone "/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/bKbjkw1/Logo-Tourisme11.jpg" alt="logo région Hauts-de-France"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/3frZQSL/logo4.jpg" alt="logo de l'enseigne SNIPES"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/sCNF16c/Logo-Tourisme12.jpg" alt="logo THE P"/>
+        </mj-column>
+      </mj-group>
+      <mj-group width="50%">
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/TkLdSDV/Logo-Tourisme13.jpg" alt="logo Team Break immersive games"/>
+        </mj-column>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/m0tzZDw/Logo-Tourisme14.jpg" alt="logo voyages autour de nous"/>
+        </mj-column>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/qBQ9H6X/Logo-Tourisme15.jpg" alt="logo DK PARK"/>
+        </mj-column>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/PWDs9MH/Logo-Tourisme16.jpg" alt="logo B Bladia"/>
         </mj-column>
       </mj-group>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="20px" padding-bottom="0" padding-left="20px" padding-right="20px">
       <mj-column>
-        <mj-text align="center" mj-class="T+4 cT+1">Nos Certifications et certificateurs</mj-text>
+        <mj-text align="center" mj-class="T+4 cT+1">Nos Certifications et Certificateurs</mj-text>
         <mj-divider align="center" border-color="#14141f" border-style="solid" border-width="0.75px" width="160px"></mj-divider>
       </mj-column>
     </mj-section>
