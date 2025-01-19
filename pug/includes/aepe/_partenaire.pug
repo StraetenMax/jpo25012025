@@ -1,0 +1,30 @@
+-
+    const logosList = [
+        {
+            'image': 'https://i.ibb.co/8r6dR9c/Logo-Aepe01.jpg',
+            'alt' : 'logo Les Chérubins, reseau de micro-crèches' 
+        },
+        {
+            'image':'https://i.ibb.co/km0YCNd/Logo-Aepe02.jpg',
+            'alt':'logo Nature & Petits Pas, micro-crèche'
+        },
+        {
+            'image':'https://i.ibb.co/nQTzGZ3/Logo-Aepe03.jpg',
+            'alt':'logo Le Tipi des Toutpeti'
+        },
+        {
+            'image':'https://i.ibb.co/4FcqpSj/Logo-Aepe04.jpg',
+            'alt':'logo de la ville de Wasquehal'
+        }
+    ]
+
+//-mj-section(background-color="#d9d9d9" padding="20px 60px 40px 60px") 
+mj-section(background-color="#ffffff" padding="20px 60px")
+    mj-column
+        mj-text(align="center" mj-class="T+4 cT+1") Entreprises accueillant nos étudiants en stage ou en apprentissage
+        mj-divider(align="center" border-color="#14141f" border-width="0.75px" border-style="solid" width="160px")
+mj-section(background-color="#ffffff" padding="0px 60px 40px 60px")
+    mj-group(width="280px")
+        each logo in logosList
+            mj-column(width="25%" padding="4px")
+                mj-image(padding="0" border="none" fluid-on-mobile="true" width="150px" src=logo.image alt=logo.alt)/

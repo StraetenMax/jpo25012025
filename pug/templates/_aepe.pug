@@ -14,6 +14,7 @@ mjml
             mj-all(font-family='Roboto, Arial, Helvetica,sans serif')/
             mj-class(name='T+3' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='36px' line-height='36px' font-weight='900')/
             mj-class(name='T+2' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='24px' line-height='28px' font-weight='700')/
+            mj-class(name='T+4' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='24px' line-height='28px' font-weight='400')/
             mj-class(name='T+1' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='16px' line-height='20px' font-weight='700')/
             mj-class(name='T' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='16px' line-height='20px' font-weight="400")/
             mj-class(name='T-1' font-family="Roboto, Arial, Helvetica, sans-serif" font-size='13px' line-height='15px' font-weight="400")/
@@ -55,10 +56,10 @@ mjml
         block content
         mj-section(mj-class="bg+1" border-radius="3px 3px 0 0" padding="20px 30px")
             mj-column
-                mj-image(align="left" padding="0" border="none" width="120px" src="https://i.ibb.co/8K8y4kW/ECOSUP-CAMPUS-Blanc012024.png" alt="logo Ecosup Campus")
+                mj-image(align="left" padding="0" border="none" width="120px" src="https://i.ibb.co/HtG61w3/ECOSUPSante.png" alt="logo Ecosup Santé")
         //- bloc header
         block header
-            include ../includes/tourisme/_header
+            include ../includes/aepe/_header
         //- bloc text argumentaires
         block argumentaires
             include ../includes/tourisme/_argumentaires
@@ -74,12 +75,12 @@ mjml
         mj-section(background-color="#ffffff" padding="0")
             mj-column
                 mj-spacer(height="20px")
-        //- bloc syrendre
-            block transport
-            include ../includes/tourisme/_transport
-        //- bloc partenaires
+        //- bloc partenaire
+        block partenaire
+            include ../includes/aepe/_partenaire
+        //- bloc logos
         block logos
-            include ../includes/tourisme/_logos
+            include ../includes/aepe/_certificateur
         //- bloc footer
         block footer
             include ../includes/tourisme/_footer
