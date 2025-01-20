@@ -1,35 +1,39 @@
 -
     const logosList1 = [
         {
-            'image':'images/qualiopi.png',
+            'image':'https://i.ibb.co/ctL8M04/Qualiopi.png',
             'alt':'logo Qualiopi, actions de formation et actions de formation en apprentissage'
         },
         {
-            'image':'images/rncp.png',
+            'image':'https://i.ibb.co/61w1cZf/logo-RNCPjpo12142024.png',
             'alt':'logo France Compétences certification enregistrée au RNCP'
         }
     ]
 -
-    const logosList2 = [
+    const logosList2 =[
         {
-            'image':'images/parcoursPrive.png',
-            'alt':'logo Parcours Privé'
+            'image':'https://i.ibb.co/wWQzSdT/Plan-de-travail-1jpo12142024.png',
+            'alt':'logo de Formatives, network'
         },
         {
-            'image':'images/kalysco.png',
-            'alt':'logo Kalysco les écoles éthiques'
+            'image':'https://i.ibb.co/4KBjqnQ/logo-Fedejpo12142024.png',
+            'alt':'logo de la FEDE, Federation for EDucation in Europe'
+        },
+        {
+            'image':'https://i.ibb.co/NmWvQ57/logo-Academie-Lillejpo12142024.png',
+            'alt':'logo d\'Academie Lille'
         }
     ]
 mj-section(background-color="#ffffff" padding-top="20px" padding-bottom="0" padding-right="20px" padding-left="20px")
     mj-column
         mj-text(align="center" mj-class="T+4 cT+1") Nos certifications et certificateurs
-        mj-divider(align="center" border-style="solid" border-color="#14141f" border-width="0.75px" width="160px")
-mj-section(background-color="#ffffff" padding-top="0px" padding-bottom="20px" padding-right="20px" padding-left="20px") 
-    mj-group(width="50%")
+        mj-divider(border-style="solid" border-color="#14141f" border-width="0.75px" width="160px")
+mj-section(background-color="#ffffff" padding-top="0px" padding-bottom="20px" padding-right="60px" padding-left="60px") 
+    mj-group(width="40%")
         each logo in logosList1
             mj-column(width="50%" padding="10px" vertical-align="middle")
-                mj-image(padding="0" border="none" width="150px" src=logo.image alt=logo.alt)/ 
-    mj-group(width="50%")
+                mj-image(padding="0" border="none" fluid-on-mobile="true" width="150px" src=logo.image alt=logo.alt)/ 
+    mj-group(width="60%")
         each logo in logosList2
-            mj-column(width="50%" padding="10px" vertical-align="middle")
-                mj-image(padding="0" border="none" width="150px" src=logo.image alt=logo.alt)/ 
+            mj-column(width="33.333%" padding="10px" vertical-align="middle")
+                mj-image(padding="0" border="none" fluid-on-mobile="true" width="150px" src=logo.image alt=logo.alt)/ 
