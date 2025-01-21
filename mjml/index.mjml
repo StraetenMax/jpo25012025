@@ -50,6 +50,9 @@
           .stop{
               display: none !important;
           }
+          .espace{
+              height:50px !important;
+          }
       }
     </mj-style>
   </mj-head>
@@ -98,7 +101,7 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="0">
       <mj-column width="50%" vertical-align="middle" background-color="#ffffff">
-        <mj-image padding="0" border="none" width="481px" src="https://i.ibb.co/3WVP4Qr/bts-Dietetique.jpg" alt="Maîtrise du poids et de la taille avec une alimentation équilibrée"></mj-image>
+        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/3WVP4Qr/bts-Dietetique.jpg" alt="Maîtrise du poids et de la taille avec une alimentation équilibrée"></mj-image>
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
         <mj-text mj-class="T+2 cT+1" padding-bottom="0" letter-spacing="-1px">BTS <span style="font-weight:400;">Diététique et Nutrition</span></mj-text>
@@ -112,7 +115,7 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="0" direction="rtl">
       <mj-column width="50%" vertical-align="middle" background-color="#efefef">
-        <mj-image padding="0" border="none" width="481px" src="https://i.ibb.co/FVj5XFN/bachelor-Dietetique.jpg" alt="Soigner des patients ayant des troubles du comportement alimentaire"></mj-image>
+        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/FVj5XFN/bachelor-Dietetique.jpg" alt="Soigner des patients ayant des troubles du comportement alimentaire"></mj-image>
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
         <mj-text mj-class="T+2 cT+1" padding-bottom="0">Bachelor <span style="font-weight:400">Chargé(e) de projet en nutrition et la prise en charge des troubles du comportement alimentaire</span></mj-text>
@@ -129,7 +132,7 @@
         <mj-spacer height="20px"></mj-spacer>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="20px 60px">
+    <mj-section background-color="#ffffff" padding="20px">
       <mj-column>
         <mj-text align="center" mj-class="T+4 cT+1">Entreprises accueillant nos étudiants en stage</mj-text>
         <mj-divider align="center" border-color="#14141f" border-style="solid" border-width="0.75px" width="160px"></mj-divider>
@@ -193,27 +196,22 @@
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section background-color="#ffffff" padding-top="0">
+    <mj-section background-color="#ffffff" padding="20px">
       <mj-column>
         <mj-text align="center" mj-class="T+4 cT+1">Nos Certifications et certificateurs</mj-text>
         <mj-divider align="center" border-color="#14141f" border-style="solid" border-width="0.75px" width="160px"></mj-divider>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="20px"> 
-      <mj-group width="50%">
-        <mj-column width="50%" padding="10px" vertical-align="middle">
-          <mj-image padding="0" border="none" width="150px" src="images/qualiopi.png" alt="logo Qualiopi, actions de formation et actions de formation en apprentissage"/> 
+    <mj-section background-color="#ffffff" padding-top="0" padding-bottom="20px" padding-left="60px" padding-right="60px"> 
+      <mj-group>
+        <mj-column width="33.333333%" padding="10px" vertical-align="middle">
+          <mj-image padding="0" border="none" width="150px" src="https://i.ibb.co/ctL8M04/Qualiopi.png" alt="logo Qualiopi, actions de formation et actions de formation en apprentissage"/>
         </mj-column>
-        <mj-column width="50%" padding="10px" vertical-align="middle">
-          <mj-image padding="0" border="none" width="150px" src="images/rncp.png" alt="logo France Compétences certification enregistrée au RNCP"/> 
+        <mj-column width="33.333333%" padding="10px" vertical-align="middle">
+          <mj-image padding="0" border="none" width="150px" src="https://i.ibb.co/hy7kBKM/Plan-de-travail-1.png" alt="logo France Compétences certification enregistrée au RNCP"/>
         </mj-column>
-      </mj-group>
-      <mj-group width="50%">
-        <mj-column width="50%" padding="10px" vertical-align="middle">
-          <mj-image padding="0" border="none" width="150px" src="images/parcoursPrive.png" alt="logo Parcours Privé"/> 
-        </mj-column>
-        <mj-column width="50%" padding="10px" vertical-align="middle">
-          <mj-image padding="0" border="none" width="150px" src="images/kalysco.png" alt="logo Kalysco les écoles éthiques"/> 
+        <mj-column width="33.333333%" padding="10px" vertical-align="middle">
+          <mj-image padding="0" border="none" width="150px" src="https://i.ibb.co/NmWvQ57/logo-Academie-Lillejpo12142024.png" alt="logo de l'Académie de Lille"/>
         </mj-column>
       </mj-group>
     </mj-section>
