@@ -1,7 +1,7 @@
 
 <mjml>
   <mj-head>
-    <mj-title>Jpo 25012025</mj-title>
+    <mj-title>Hôtellerie Jpo 25012025</mj-title>
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&amp;display=swap"></mj-font>
     <mj-raw>
       <meta name='color-scheme' content='light'/>
@@ -22,14 +22,14 @@
       <mj-class name="T-2" font-family="Roboto, Arial, Helvetica, sans-serif" font-size="12px" line-height="16px" font-weight="400"/>
       <mj-class name="cT+1" color="#14141f" border-color="#14141f"/>
       <mj-class name="cT+0" color="#626262"/>
-      <mj-class name="c+1" color="#ec6608"/>
-      <mj-class name="bg+1" background-color="#ec6608"/>
+      <mj-class name="c+1" color="#c21718"/>
+      <mj-class name="bg+1" background-color="#c21718"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
     <mj-style>
       @media(max-width:480px){
           .espace{
-              height:60px !important;
+              height:50px !important;
           }
       }
     </mj-style>
@@ -37,7 +37,7 @@
   <mj-body background-color="#efefef">
     <mj-section mj-class="bg+1" border-radius="3px 3px 0 0" padding="20px 30px">
       <mj-column>
-        <mj-image align="left" padding="0" border="none" width="120px" src="https://i.ibb.co/wwWg6s3/logo-Commerce-Blanc.png" alt="logo Ecosup Commerce"></mj-image>
+        <mj-image align="left" padding="0" border="none" width="120px" src="https://i.ibb.co/CvXDTv5/logo-Hotellerie-Blanc.png" alt="logo Ecosup Hôtellerie"></mj-image>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="0">
@@ -51,7 +51,7 @@
     <mj-section background-color="#ffffff" padding-top="5px" padding-bottom="0px" padding-left="30px" padding-right="30px">
       <mj-column width="80%">
         <mj-text mj-class="T+2 cT+0" padding="5px 0" letter-spacing="-1px">Samedi 25 janvier de 9h30 à 17h</mj-text>
-        <mj-text mj-class="T+3 cT+1" padding="0px">Ecosup Commerce vous ouvre grand ses portes !!!</mj-text>
+        <mj-text mj-class="T+3 cT+1" padding="0px">Ecosup Hôtellerie vous ouvre grand ses portes !!!</mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="10px" padding-bottom="20px" padding-left="30px" padding-right="30px">
@@ -73,45 +73,66 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0">
       <mj-column>
-        <mj-text align="center" mj-class="T+4 cT+1">Nos Formations Commerce et Immobilier</mj-text>
-        <mj-divider border-color="#14141f" border-style="solid" border-width="0.75px" width="160px"></mj-divider>
+        <mj-text align="center" mj-class="T+4 cT+1">Nos formations Hôtellerie/Restauration</mj-text>
+        <mj-divider align="center" border-color="#14141f" border-style="solid" border-width="0.75px" width="160px"></mj-divider>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="0">
       <mj-column width="50%" vertical-align="middle" background-color="#efefef">
-        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/CVYJ2yj/bts-Immobilier.jpg" alt="achat d'appartement ou de maison sur plan en compagnie du conseiller de l'agence"></mj-image>
+        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/qnD33GC/man-Hotellerie.jpg" alt="formation en cuisine pour acquérir les bases de la restauration et de l'hôtellerie"></mj-image>
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
-        <mj-text mj-class="T+2 cT+1" padding-bottom="0" letter-spacing="-1px">BTS <span style="font-weight:400;">Professions immobilières</span></mj-text>
+        <mj-text mj-class="T+2 cT+1" padding-bottom="0" letter-spacing="-1px">MAN <span style="font-weight:400;">Mise à niveau</span></mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Post-Bac,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Formation <span style="font-weight:700;color:#14141f;">initiale</span>,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Durée : <span style="font-weight:700;color:#14141f;">1 an</span>,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Taux de réussite (2023) : <span style="font-weight:700;color:#14141f;">100%</span>,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Plus : <span style="font-weight:700;color:#14141f;">Bourse Ecosup</span>, obtenue selon critères,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Financement à la charge de l'Étudiant.</mj-text>
+        <mj-spacer css-class="espace"></mj-spacer>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0" direction="rtl">
+      <mj-column width="50%" vertical-align="middle" background-color="#efefef">
+        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/Yj220Xz/bts-Hotellerie.jpg" alt="Formation aux services en hôtellerie"></mj-image>
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-text mj-class="T+2 cT+1" padding-bottom="0">BTS <span style="font-weight:400">Management hôtellerie/restauration</span></mj-text>
         <mj-text mj-class="T cT+0" padding="0 25px">Post-Bac,</mj-text>
         <mj-text mj-class="T cT+0" padding="0 25px">Formation en <span style="font-weight:700;color:#14141f;">apprentissage</span>,</mj-text>
         <mj-text mj-class="T cT+0" padding="0 25px">Durée : <span style="font-weight:700;color:#14141f;">2 ans</span>,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Taux de réussite (2023) : <span style="font-weight:700;color:#14141f;">87%</span>,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Plus : <span style="font-weight:700;color:#14141f;">diplôme reconnu par l'État</span>,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Financement pris en charge par l'OPCO.</mj-text>
+        <mj-spacer css-class="espace"></mj-spacer>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#ffffff" padding="0">
+      <mj-column width="50%" vertical-align="middle" background-color="#efefef">
+        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/jJPQsCy/bachelor-Hotellerie.jpg" alt="Dans les bureaux de Best Western, on élabore les stratégies commerciales de demain"></mj-image>
+      </mj-column>
+      <mj-column width="50%" vertical-align="middle">
+        <mj-text mj-class="T+2 cT+1" padding-bottom="0" letter-spacing="-1px">Bachelor <span style="font-weight:400;">Chargé(e) de gestion commerciale en hôtellerie</span></mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Post-BTS,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Formation en <span style="font-weight:700;color:#14141f;">apprentissage</span>,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Durée : <span style="font-weight:700;color:#14141f;">1 an</span>,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Taux de réussite (2023) : <span style="font-weight:700;color:#14141f;">100%</span>,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Plus : <span style="font-weight:700;color:#14141f;">Semaine Travel week</span> semaine immersive en mobilité internationale,</mj-text>
         <mj-text mj-class="T cT+0" padding="0 25px">Financement pris en charge par l'OPCO.</mj-text>
         <mj-spacer css-class="espace"></mj-spacer>
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding="0" direction="rtl">
       <mj-column width="50%" vertical-align="middle" background-color="#efefef">
-        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/yQSRJtk/bts-Commerce.jpg" alt="Étudiant en apprentissage chez Jeff de Bruges à Tourcoing"></mj-image>
+        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/0ZvRcRn/master-Hotellerie.jpg" alt="Le directeur de l'établissement explique aux salariés les nouvelles directives"></mj-image>
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
-        <mj-text mj-class="T+2 cT+1" padding-bottom="0">BTS <span style="font-weight:400">Management commercial opérationnel</span></mj-text>
-        <mj-text mj-class="T cT+0" padding="0 25px">Post-Bac,</mj-text>
-        <mj-text mj-class="T cT+0" padding="0 25px">Formation en <span style="font-weight:700;color:#14141f;">apprentissage</span> ,</mj-text>
+        <mj-text mj-class="T+2 cT+1" padding-bottom="0">Mastère <span style="font-weight:400">Management hôtellerie/restauration</span></mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Post-Bachelor,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Formation en <span style="font-weight:700;color:#14141f;">apprentissage</span>,</mj-text>
         <mj-text mj-class="T cT+0" padding="0 25px">Durée : <span style="font-weight:700;color:#14141f;">2 ans</span>,</mj-text>
-        <mj-text mj-class="T cT+0" padding="0 25px">Financement pris en charge par l'OPCO.</mj-text>
-        <mj-spacer css-class="espace"></mj-spacer>
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="#ffffff" padding="0">
-      <mj-column width="50%" vertical-align="middle" background-color="#efefef">
-        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/b5LXDVP/bachelor-Commerce.jpg" alt="Gestion des magasins et étude des chiffres des ventes"></mj-image>
-      </mj-column>
-      <mj-column width="50%" vertical-align="middle">
-        <mj-text mj-class="T+2 cT+1" padding-bottom="0" letter-spacing="-1px">Bachelor <span style="font-weight:400;">Responsable en développement commercial</span></mj-text>
-        <mj-text mj-class="T cT+0" padding="0 25px">Post-BTS,</mj-text>
-        <mj-text mj-class="T cT+0" padding="0 25px">Formation en <span style="font-weight:700;color:#14141f;">apprentissage</span> ,</mj-text>
-        <mj-text mj-class="T cT+0" padding="0 25px">Durée : <span style="font-weight:700;color:#14141f;">1 an</span>,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Taux de réussite (2023) : <span style="font-weight:700;color:#14141f;">100%</span>,</mj-text>
+        <mj-text mj-class="T cT+0" padding="0 25px">Plus : <span style="font-weight:700;color:#14141f;">double certification internationale</span>,</mj-text>
         <mj-text mj-class="T cT+0" padding="0 25px">Financement pris en charge par l'OPCO.</mj-text>
         <mj-spacer css-class="espace"></mj-spacer>
       </mj-column>
@@ -121,78 +142,78 @@
         <mj-spacer height="20px"></mj-spacer>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="20px">
+    <mj-section background-color="#ffffff" padding="20px 60px">
       <mj-column>
         <mj-text align="center" mj-class="T+4 cT+1">Entreprises accueillant nos étudiants en apprentissage</mj-text>
-        <mj-divider border-color="#14141f" border-style="solid" border-width="0.75px" width="160px"></mj-divider>
+        <mj-divider align="center" border-color="#14141f" border-style="solid" border-width="0.75px" width="160px"></mj-divider>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding="0px 60px 40px 60px"> 
+    <mj-section background-color="#ffffff" padding="0 60px 40px 60px"> 
       <mj-group width="50%">
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/6PXjrWM/logo12.jpg" alt="logo de l'entreprise Bureau Vallée"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/vz8Rrt2/LogoA12.jpg" alt="logo Fait Maison"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/jzx6wwD/Logo17.jpg" alt="logo de l'entreprise First Burger"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/z5ZgwTw/LogoA11.jpg" alt="logo de l'Hôtel l'Ermitage Gabtois"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/JtjjLqW/logo16.jpg" alt="logo de l'entreprise System U"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/L85ZfG1/LogoA10.jpg" alt="logo de la chaîne d'Hôtels Best Western"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/rwCsPwv/logo13.jpg" alt="logo de l'entreprise B&amp;M"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/n6nKRBn/LogoA9.jpg" alt="logo Small Luxury Hotels"/>
         </mj-column>
       </mj-group>
       <mj-group width="50%">
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/3BkGVdJ/logo15.jpg" alt="logo du Chocolatier Jeff de Bruges"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/VHwDR7d/LogoA13.jpg" alt="logo de la chaîne de restauration les 3 Brasseurs"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/gMT39C5/logo14.jpg" alt="logo de l'entreprise Vaporama"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/pRydwkm/LogoA1.jpg" alt="logo du groupe Accord"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/vzfDp26/logo6.jpg" alt="logo de l'entreprise Norauto"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/8z2m91y/LogoA2.jpg" alt="logo du groupe Global Hôtel Alliance"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/TvFhqZ6/logo7.jpg" alt="logo de l'opérateur Bouygues"/>
-        </mj-column>
-      </mj-group>
-      <mj-group width="50%">
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1fmQhDB/logo8.jpg" alt="logo de l'enseigne Intermarché"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1JtDdjZ/logo10.jpg" alt="logo de l'association G2R"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/r5CSJTZ/logo9.jpg" alt="logo de l'enseigne Boulanger"/>
-        </mj-column>
-        <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/1nyt9QW/logo1.jpg" alt="logo de l'enseigne Carrefour"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/gw0vV3g/LogoA3.jpg" alt="logo l'hôtel l'Arbre voyageur"/>
         </mj-column>
       </mj-group>
       <mj-group width="50%">
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/PCdy14J/logo2.jpg" alt="logo de l'entreprise Levi's strauss"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/QXFVhNW/LogoA4.jpg" alt="logo de l'hôtel Carlton de Lille"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/9Zn8sFY/logo3.jpg" alt="logo de l'enseigne l'incroyable"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/zr8TQyS/LogoA5.jpg" alt="logo de l'Hôtel Lille Europe HLE"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/5nT0VG5/logo5.jpg" alt="logo de l'entreprise agro-alimentaire Danone "/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/DKZDvtz/LogoA6.jpg" alt="logo de l'Hôtel Restaurant du Couvent des Minimes"/>
         </mj-column>
         <mj-column width="25%" padding="4px">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/3frZQSL/logo4.jpg" alt="logo de l'enseigne SNIPES"/>
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/VYL89kZ/LogoA7.jpg" alt="logo de la Sodexo"/>
+        </mj-column>
+      </mj-group>
+      <mj-group width="50%">
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/ZXr5mLx/LogoA8.jpg" alt="logo du Najeti - Hôtel Lille Nord"/>
+        </mj-column>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/qNZP5dP/LogoA14.jpg" alt="logo Hôtel Moustache"/>
+        </mj-column>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/PGss0H7/Hotellerie21.jpg" alt="logo du restaurant le Septentrion"/>
+        </mj-column>
+        <mj-column width="25%" padding="4px">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/JrbkKBG/Hotellerie20.jpg" alt="logo de l'Hôtel Le Bristol"/>
         </mj-column>
       </mj-group>
     </mj-section>
-    <mj-section background-color="#ffffff" padding-top="20px" padding-bottom="0" padding-left="20px" padding-right="20px">
+    <mj-section background-color="#ffffff" padding-top="20px" padding-bottom="0" padding-right="20px" padding-left="20px">
       <mj-column>
-        <mj-text align="center" mj-class="T+4 cT+1">Nos Certifications et certificateurs</mj-text>
-        <mj-divider border-color="#14141f" border-style="solid" border-width="0.75px" width="160px"></mj-divider>
+        <mj-text align="center" mj-class="T+4 cT+1">Nos certifications et certificateurs</mj-text>
+        <mj-divider border-style="solid" border-color="#14141f" border-width="0.75px" width="160px"></mj-divider>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#ffffff" padding-top="0" padding-bottom="20px" padding-left="60px" padding-right="60px"> 
-      <mj-group width="50%">
+    <mj-section background-color="#ffffff" padding-top="0px" padding-bottom="20px" padding-right="60px" padding-left="60px"> 
+      <mj-group width="40%">
         <mj-column width="50%" padding="10px" vertical-align="middle">
           <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/ctL8M04/Qualiopi.png" alt="logo Qualiopi, actions de formation et actions de formation en apprentissage"/> 
         </mj-column>
@@ -200,12 +221,15 @@
           <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/61w1cZf/logo-RNCPjpo12142024.png" alt="logo France Compétences certification enregistrée au RNCP"/> 
         </mj-column>
       </mj-group>
-      <mj-group width="50%">
-        <mj-column width="50%" padding="10px" vertical-align="middle">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/ypGRKtK/IMCPjpo12142024.png" alt="logo IMCP Professionnels de la formation depuis plus de 50 ans"/> 
+      <mj-group width="60%">
+        <mj-column width="33.333%" padding="10px" vertical-align="middle">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/wWQzSdT/Plan-de-travail-1jpo12142024.png" alt="logo de Formatives, network"/> 
         </mj-column>
-        <mj-column width="50%" padding="10px" vertical-align="middle">
-          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/NmWvQ57/logo-Academie-Lillejpo12142024.png" alt="logo d'Academie de Lille"/> 
+        <mj-column width="33.333%" padding="10px" vertical-align="middle">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/4KBjqnQ/logo-Fedejpo12142024.png" alt="logo de la FEDE, Federation for EDucation in Europe"/> 
+        </mj-column>
+        <mj-column width="33.333%" padding="10px" vertical-align="middle">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/NmWvQ57/logo-Academie-Lillejpo12142024.png" alt="logo d'Academie Lille"/> 
         </mj-column>
       </mj-group>
     </mj-section>
