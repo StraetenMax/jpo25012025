@@ -7,6 +7,10 @@
         {
             'image':'https://i.ibb.co/61w1cZf/logo-RNCPjpo12142024.png',
             'alt':'logo France Compétences certification enregistrée au RNCP'
+        },
+        {
+            'image':'https://i.ibb.co/6PV6RBb/Air-Training.jpg',
+            'alt':'logo Air Training Academy'
         }
     ]
 -
@@ -29,11 +33,11 @@ mj-section(background-color="#ffffff" padding-top="20px" padding-bottom="0" padd
         mj-text(align="center" mj-class="T+4 cT+1") Nos Certifications et Certificateurs
         mj-divider(border-color="#14141f" border-style="solid" border-width="0.75px" width="160px")
 mj-section(background-color="#ffffff" padding-top='0' padding-bottom="20px" padding-left="60px" padding-right="60px") 
-    mj-group(width="40%")
+    mj-group(width="100%")
         each logo in logosList1
-            mj-column(width="50%" padding="10px" vertical-align="middle")
+            mj-column(width="33.333333%" padding="10px" vertical-align="middle")
                 mj-image(padding="0" border="none" fluid-on-mobile="true" width="150px" src=logo.image alt=logo.alt)/ 
-    mj-group(width="60%")
+    mj-group(width="100%")
         each logo in logosList2
             mj-column(width="33.333333%" padding="10px" vertical-align="middle")
                 mj-image(padding="0" border="none" fluid-on-mobile="true" width="100px" src=logo.image alt=logo.alt)/ 

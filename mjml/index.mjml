@@ -62,7 +62,6 @@
         <mj-text mj-class="T cT+0" padding="5px 0"><span style="font-weight:700;color:#14141f;">La visite</span> de l'établissement, la découverte des locaux, infrastructures, équipements et, plus encore, la sensibilisation à la « culture » de notre école.</mj-text>
         <mj-text mj-class="T cT+0" padding="5px 0"><span style="font-weight:700;color:#14141f;">La rencontre</span> avec l'équipe pédagogique et les étudiants afin d'échanger sur les programmes, les débouchés professionnels et les opportunités de stages et d'alternance.</mj-text>
         <mj-text mj-class="T cT+0" padding="5px 0"><span style="font-weight:700;color:#14141f;">Les démonstrations</span> ponctuelles proposées à travers des ateliers ou des mises en situation, permettant ainsi de mieux appréhender le contenu des cours et les compétences visées.</mj-text>
-        <mj-text mj-class="T cT+0" padding="5px 0">Mais une telle JPO est aussi pour vous l'occasion unique de rencontrer d'autres futurs étudiants et de commencer à vous constituer <span style="font-weight:700;color:#14141f;">un réseau de contacts</span>.</mj-text>
         <mj-text mj-class="T cT+0" padding="5px 0"><span style="font-weight:700;color:#14141f;">Une JPO ouverte sur l'avenir !!!</span></mj-text>
       </mj-column>
     </mj-section>
@@ -198,15 +197,18 @@
       </mj-column>
     </mj-section>
     <mj-section background-color="#ffffff" padding-top="0" padding-bottom="20px" padding-left="60px" padding-right="60px"> 
-      <mj-group width="40%">
-        <mj-column width="50%" padding="10px" vertical-align="middle">
+      <mj-group width="100%">
+        <mj-column width="33.333333%" padding="10px" vertical-align="middle">
           <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/6Y3byRf/logo-Qualiopijpo12142024.png" alt="logo Qualiopi, actions de formation et actions de formation en apprentissage"/> 
         </mj-column>
-        <mj-column width="50%" padding="10px" vertical-align="middle">
+        <mj-column width="33.333333%" padding="10px" vertical-align="middle">
           <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/61w1cZf/logo-RNCPjpo12142024.png" alt="logo France Compétences certification enregistrée au RNCP"/> 
         </mj-column>
+        <mj-column width="33.333333%" padding="10px" vertical-align="middle">
+          <mj-image padding="0" border="none" fluid-on-mobile="true" width="150px" src="https://i.ibb.co/6PV6RBb/Air-Training.jpg" alt="logo Air Training Academy"/> 
+        </mj-column>
       </mj-group>
-      <mj-group width="60%">
+      <mj-group width="100%">
         <mj-column width="33.333333%" padding="10px" vertical-align="middle">
           <mj-image padding="0" border="none" fluid-on-mobile="true" width="100px" src="https://i.ibb.co/wWQzSdT/Plan-de-travail-1jpo12142024.png" alt="logo Formatives, network"/> 
         </mj-column>
