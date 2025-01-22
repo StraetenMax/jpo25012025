@@ -30,6 +30,9 @@ mjml
                 .espace{
                     height:50px !important;
                 }
+                .hidden{
+                    display:none !important;
+                }
             }
     //- Body
     mj-body(background-color='#efefef')
@@ -38,6 +41,9 @@ mjml
         mj-section(mj-class="bg+1" border-radius="3px 3px 0 0" padding="20px 30px")
             mj-column
                 mj-image(align="left" padding="0" border="none" width="120px" src="https://i.ibb.co/JndJbtQ/Logo-Tourisme-Blanc.png" alt="logo Ecosup Tourisme en blanc")
+        //-bloc information
+        block information
+            include ../includes/tourisme/_information
         //- bloc header
         block header
             include ../includes/tourisme/_header
