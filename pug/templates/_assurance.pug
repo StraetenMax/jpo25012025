@@ -38,15 +38,18 @@ mjml
         mj-section(mj-class="bg+1" border-radius="3px 3px 0 0" padding="20px 30px")
             mj-column
                 mj-image(align="left" padding="0" border="none" width="120px" src="https://i.ibb.co/bP0LZ5M/logo-Assurance-Blanc.png" alt="logo Ecosup Assurance")
+        //- bloc information
+        block information
+            include ../includes/assurance/_information
         //- bloc header
         block header
             include ../includes/assurance/_header
         //- bloc text argumentaires
         block argApprentissage
             include ../includes/_argApprentissage
-        //- bloc button
-            block button
-            include ../includes/_button
+        //- bloc annonce
+        block annonce
+            include ../includes/assurance/_annonce
         mj-section(background-color="#ffffff" padding="0")
             mj-column
                 mj-spacer(height="30px")
