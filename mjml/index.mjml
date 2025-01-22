@@ -67,12 +67,12 @@
     </mj-section>
     <mj-section background-color="#dfdfdf" padding="20px 30px">
       <mj-column width="35%">
-        <mj-image padding="0" width="480px" src="https://i.ibb.co/vhVvnnz/Hotesse-Air.jpg"></mj-image>
+        <mj-image padding="0" width="480px" src="https://i.ibb.co/XZnfFvc/alexW.jpg"></mj-image>
       </mj-column>
       <mj-column width="65%">
         <mj-text align="center" padding-bottom="0" mj-class="T+4 cT+1">Présentation du <span style="font-weight:700;">métier</span> de <span style="font-weight:700;">steward</span> et d'<span style="font-weight:700;">hôtesse de l'air</span></mj-text>
-        <mj-social align="left" padding-top="0" padding-bottom="0" icon-padding="5px" icon-size="50px" mj-class="T cT+1" mode="horizontal">
-          <mj-social-element vertical-align="top" src="https://i.ibb.co/X8kT5YX/air-France.jpg" alt="logo">samedi 25 janvier<br> <span style="font-weight:700;color:#14141f">de 11h à 12h</span></mj-social-element>
+        <mj-social align="left" padding-top="0" padding-bottom="0" icon-size="50px" mj-class="T cT+1" mode="horizontal">
+          <mj-social-element src="https://i.ibb.co/X8kT5YX/air-France.jpg" alt="logo">samedi 25 janvier<br> <span style="font-weight:700;color:#14141f">de 11h à 12h</span></mj-social-element>
         </mj-social>
         <mj-text padding="5px 25px" mj-class="T cT+0">Rejoignez-nous pour un aperçu du métier de steward et d'hôtesse de l'air par <span style="font-weight:700;color:#14141f;">Alexandre Walleart, chef de cabine chez Air France</span> depuis plus de vingt ans.</mj-text>
         <mj-text padding="5px 25px" mj-class="T cT+0">Venez découvrir ce métier passionnant et poser vos questions à un professionnel expérimenté. Nous vous attendons nombreux !</mj-text>
@@ -91,7 +91,7 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="0">
       <mj-column width="50%" vertical-align="middle" background-color="#efefef">
-        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/V9hbLyX/bts-Tourisme.jpg" alt="Préparation au CCA Cabin Crew Attestation"></mj-image>
+        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/C144F69/bachelor-Tourisme.jpg" alt="Préparation d'un périple pour un client"></mj-image>
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
         <mj-text mj-class="T+2 cT+1" padding-bottom="0" letter-spacing="-1px">BTS <span style="font-weight:400;">Tourisme</span></mj-text>
@@ -105,7 +105,7 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="0" direction="rtl">
       <mj-column width="50%" vertical-align="middle" background-color="#efefef">
-        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/C144F69/bachelor-Tourisme.jpg" alt="Préparation d'un périple pour un client"></mj-image>
+        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/fnBWHtd/mastere-Tourisme.jpg" alt="Jeune femme travaillant dans une agence de voyage"></mj-image>
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
         <mj-text mj-class="T+2 cT+1" padding-bottom="0">Bachelor <span style="font-weight:400">Chargé(e) de gestion commerciale en Tourisme</span></mj-text>
@@ -119,7 +119,7 @@
     </mj-section>
     <mj-section background-color="#ffffff" padding="0">
       <mj-column width="50%" vertical-align="middle" background-color="#efefef">
-        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/fnBWHtd/mastere-Tourisme.jpg" alt="Jeune femme travaillant dans une agence de voyage"></mj-image>
+        <mj-image padding="0" border="none" fluid-on-mobile="true" width="480px" src="https://i.ibb.co/GdzQB2Y/BTStourisme2.jpg" alt="Préparation au CCA Cabin Crew Attestation"></mj-image>
       </mj-column>
       <mj-column width="50%" vertical-align="middle">
         <mj-text mj-class="T+2 cT+1" padding-bottom="0" letter-spacing="-1px">Mastère <span style="font-weight:400;">Management stratégique des entreprises du tourisme</span></mj-text>
