@@ -38,7 +38,7 @@ mjml
     mj-body(background-color='#efefef')
         //- content
         block content
-        mj-section(mj-class="bg+1" border-radius="3px 3px 0 0" padding="20px 30px")
+        mj-section(mj-class="bg+1" border-radius="3px 3px 0 0" padding="20px 15px 10px 15px")
             mj-column
                 mj-image(align="left" padding="0" border="none" width="120px" src="https://i.ibb.co/JndJbtQ/Logo-Tourisme-Blanc.png" alt="logo Ecosup Tourisme en blanc")
         //-bloc information
@@ -54,8 +54,8 @@ mjml
         block annonce
             include ../includes/tourisme/_annonce
         //- bloc button
-            block button
-            include ../includes/_button
+        block annonce1
+            include ../includes/tourisme/_annonce1
         mj-section(background-color="#ffffff" padding="0")
             mj-column
                 mj-spacer(height="30px")
